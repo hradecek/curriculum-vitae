@@ -1,6 +1,7 @@
 # Hradecek's Curriculum Vitae
 Dependencies:
  - XeTeX, transitive dependency, required due to underlying template compilation,
+ - [FontAwesome](https://fontawesome.com/),
  - [Okular](https://okular.kde.org/), document viewer (*optional*),
  - [Pandoc](https://pandoc.org), markup language transformation utility (*optional*).
 
