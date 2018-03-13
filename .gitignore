@@ -1,0 +1,12 @@
+# Temp files
+*.un~
+
+# Compilation output files
+*.aux
+*.log
+*.out
+
+# Generated documents
+*.pdf
+*.md
+!README.md
