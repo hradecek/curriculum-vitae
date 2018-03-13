@@ -10,3 +10,6 @@
 *.pdf
 *.md
 !README.md
+
+# External constants
+constants.sty

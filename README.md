@@ -37,6 +37,9 @@ $ make clean
 ```
 in order to remove all generated files including logs, pdfs, ...
 
+## External data
+File `variables.sty` contains defintions of some exeternal data, suchc as constants or publicly sensitive data.
+
 ## Third party
 Curriculum vitae is build upon [Deedy-Resume](https://github.com/deedy/Deedy-Resume) template published under [Apache License 2.0](https://github.com/deedy/Deedy-Resume/blob/master/LICENSE).
 
