@@ -1,0 +1,193 @@
+\documentclass[a4paper]{deedy-resume}
+
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\newfontfamily{\FA}{Font Awesome 5 Free-Solid}
+\newfontfamily{\FAR}{Font Awesome 5 Free-Regular}
+\newfontfamily{\FAB}{Font Awesome 5 Brands-Regular}
+\usepackage{constants}
+\definecolor{dark-red}{rgb}{0.75,0.15,0.15}
+\definecolor{dark-green}{rgb}{0.15,0.4,0.15}
+\definecolor{medium-blue}{rgb}{0,0,0.5}
+\usepackage{hyperref}
+\hypersetup{plainpages=false,pdfpagelabels,unicode,draft=false,colorlinks=true,linkcolor={dark-red},citecolor={dark-green},urlcolor={dark-red}}
+
+% FontAwesome Icons
+\def\phone{{\FA \faPhone}}
+\def\envelope{{\FA \faEnvelopeAlt}}
+\def\star{{\FA \faStar}}
+\def\starEmpty{{\FAR \faStar}}
+\def\starHalf{{\FA \faStarHalf}}
+\def\github{{\FAB \faGithub}}
+\def\linkedIn{{\FAB \faLinkedin}}
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+% TITLE SECTION
+%----------------------------------------------------------------------------------------
+\namesection{Ivo}{Hrádek}{
+    \runsubsection{Software Engineer}
+}
+%----------------------------------------------------------------------------------------
+% LEFT COLUMN
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.32\textwidth} % The left column takes up 33% of the text width of the page
+%------------------------------------------------
+% Contact
+%------------------------------------------------
+\section{Contact} % Your contact information
+\phone\hspace{8pt}\telnumber \\
+\envelope\hspace{8pt}\href{mailto:ivohradek@gmail.com}{ivohradek@gmail.com}
+%------------------------------------------------
+% Links
+%------------------------------------------------
+\section{Links}
+\github\hspace{8pt}\href{https://github.com/hradecek}{\bf hradecek} \\
+\linkedIn\hspace{9pt}\href{https://www.linkedin.com/in/ivo-hr\%C3\%A1dek-01baa8115/}{\bf ivohradek}
+%------------------------------------------------
+% Education
+%------------------------------------------------
+\section{Education}
+\runsubsection{Masaryk University}\\
+\descript{Bachelor in Computer Science}
+\location{Graduated June 2015 | Brno, CZ}
+Conc. in Computer Systems and Data Processing\\
+\sectionspace
+%------------------------------------------------
+\runsubsection{Secondary Technical School of Mechanical and Electrical Engineering}\\
+\location{Graduated June 2012 | Nitra, SK}
+Conc. in Industrial Informatics\\
+\sectionspace
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+\section{Coursework}
+\subsection{Graduate}
+\textbullet{} UNIX – Programming and System\\\hspace{5.7pt} Management I and II\\
+\textbullet{} MS Windows Systems Management I\\
+\textbullet{} Seminar on Functional Programming\\
+\textbullet{} Advanced Functional Programming\\
+\textbullet{} Seminar in Java programming\\
+\sectionspace
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+\section{Skills}
+\subsection{Programming}
+\star\star\star\star\star\star\\
+Java\\
+\star\star\star\star\starEmpty\\
+PHP\\
+\location{\star\star\star\starEmpty\starEmpty}
+Haskell \textbullet{} Python \textbullet{} C\\
+\location{\star\starEmpty\starEmpty\starEmpty\starEmpty}
+C++ \textbullet{} C\# \textbullet{} Groovy \textbullet{} Perl\\
+\sectionspace
+\subsection{Development Tools}
+GIT \textbullet{} SVN \textbullet{} Maven \textbullet{} Gradle
+\sectionspace
+\subsection{Database Platforms}
+MySQL
+\end{minipage}
+\hfill
+%----------------------------------------------------------------------------------------
+% RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+\section{Experience}
+\runsubsection{Tieto}
+\descript{| Software Developer\hfill\small June 2018 - Present}
+\location{Software Defined Infrastracture}
+\vspace{\topsep}
+Software Defined Infrastructure provides the capability to control and configure hardware from a central management platform into virtual performance-optimized datacenters, which provides flexibility for NVF solutions.
+ 
+\vspace{\topsep}
+\textbf{Responsibilities:}
+\vspace{\topsep}
+\begin{tightitemize}
+    \item develop new features,
+    \item improving legacy code,
+    \item resolving customer issues,
+    \item participate in new functionality research.
+\end{tightitemize}
+\sectionspace
+\runsubsection{Red Hat}
+\descript{| Quality Engineer\hfill\small May 2016 - December 2017}
+\location{JBoss EAP}
+\vspace{\topsep}
+JBoss EAP Quality Engineering team was integral part in serving of tested, tuned and reliable product to Red Hat's customers.
+
+\vspace{\topsep}
+\textbf{Responsibilities:}
+\vspace{\topsep}
+\begin{tightitemize}
+    \item defining testing strategies,
+    \item develop test automation frameworks,
+    \item document new bugs,
+    \item participate in product releases.
+\end{tightitemize}
+\sectionspace
+%------------------------------------------------
+\runsubsection{Foxytouch}
+\descript{| Software Developer\hfill\small December 2015 - May 2016}
+\location{FoxyAdmin}
+\vspace{\topsep}
+FoxyAdmin was modular and lightweight content management system (CMS) written in Laravel5 (PHP), that was developed due to rising demand of small sized companies for customizable system.
+
+\vspace{\topsep}
+\textbf{Responsibilities:}
+\begin{tightitemize}
+    \item software architecture design (UML),
+    \item database design (SQL),
+    \item developed new features and modules based on customer's requirements,
+    \item provided bug fixes.
+\end{tightitemize}
+\sectionspace
+%------------------------------------------------
+\runsubsection{University}
+\descript{| Bachelor Thesis\hfill\small May 2015}
+\location{APK2XML}
+\vspace{\topsep}
+The bachelor thesis analysed structure of the Android package~(APK), Dalvik executable~(DEX) file formats and fully described undocumented XML binary format.
+Result of theoretical research was implementation performing conversion from binary XML to text XML.
+
+\vspace{\topsep}
+\textbf{Learned:}
+\begin{tightitemize}
+    \item reverse engineering,
+    \item Java programming,
+    \item Android architecture.
+\end{tightitemize}
+\sectionspace
+\end{minipage}
+%------------------------------------------------
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+\runsubsection{High School}
+\descript{| Student Project\hfill\small January 2012}
+\location{Mini-PLC}
+\vspace{\topsep}
+Student project focused on creation of a low cost \textit{programable logic controller}~(PLC).
+Determined by an underlaying microcontroller, Mini-PLC implemented variety of basics and complex functions programmable through a simple graphical user interface (GUI) in form of ladder logic.
+Mini-PLC was featured with ethernet module providing the possibility of state monitoring.
+
+\vspace{\topsep}
+\textbf{Learned:}
+\vspace{\topsep}
+\begin{tightitemize}
+    \item algorithm design,
+    \item microcontroller programming in C,
+    \item C\# and WPF basics.
+\end{tightitemize}
+\vspace{\topsep}
+\textbf{Awards:}
+\begin{tightitemize}
+    \item 1\textsuperscript{st} place in Technical Idea of the year,
+    \item presented at Student Research and Professional Activities nationwide meeting.
+\end{tightitemize}
+%\sectionspace
+\end{minipage}
+\end{document}
